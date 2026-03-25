@@ -4,7 +4,7 @@
 
 ## Description
 
-In the Get_next_line project, `get_next_line()` was created to read from a file descriptor line by line. Each line is returned as a string, with efficient buffering and memory management to allow consecutive calls to continue reading seamlessly.
+In the get_next_line project, `get_next_line()` was created to read from a file descriptor line by line. Each line is returned as a string, with efficient buffering and memory management to allow consecutive calls to continue reading seamlessly.
 
 This project teaches the following:
 
