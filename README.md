@@ -1,6 +1,6 @@
 *This project has been created as part of the 42 curriculum by mmittelb.*
 
-# Get_next_line
+# get_next_line
 
 ## Description
 
