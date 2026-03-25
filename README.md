@@ -16,7 +16,7 @@ This project teaches the following:
 
 ## Instructions
 
-### Build
+### Compile
 
 **Mandatory version**
 
@@ -34,11 +34,9 @@ cc -D BUFFER_SIZE=32 main.c get_next_line_bonus.c get_next_line_utils_bonus.c -o
 
 ### Run
 
-Compile and run:
-
 ```bash
-./gnl <file>       # Normal version
-./gnl_bonus <file1> <file2> <file3>  # Bonus version, supports multiple files at once
+./gnl <file>       					# Normal version
+./gnl_bonus <file1> <file2> <file3> # Bonus version, supports multiple files at once
 ```
 Example:
 

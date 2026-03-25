@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mmittelb <mmittelb@student.42.fr>          +#+  +:+       +#+        */
+/*   By: manuelmittelbach <manuelmittelbach@stud    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/17 11:31:18 by mmittelb          #+#    #+#             */
-/*   Updated: 2025/06/19 10:24:51 by mmittelb         ###   ########.fr       */
+/*   Updated: 2026/03/25 16:18:32 by manuelmitte      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,10 +76,10 @@ char	*get_next_line2(char **remain)
 char	*get_next_line(int fd)
 {
 	char		*buffer;
-	static char	*remain[1048576];
+	static char	*remain[OPEN_MAX];
 	ssize_t		bytes_read;
 
-	if (fd < 0 || BUFFER_SIZE <= 0 || fd > 1048576)
+	if (fd < 0 || BUFFER_SIZE <= 0 || fd >= OPEN_MAX)
 		return (NULL);
 	bytes_read = 1;
 	while (ft_end_of_line_check(remain[fd]) == 0 && bytes_read != 0)

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_bonus.h                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mmittelb <mmittelb@student.42.fr>          +#+  +:+       +#+        */
+/*   By: manuelmittelbach <manuelmittelbach@stud    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/17 13:43:51 by mmittelb          #+#    #+#             */
-/*   Updated: 2025/06/19 09:50:33 by mmittelb         ###   ########.fr       */
+/*   Updated: 2026/03/25 16:09:29 by manuelmitte      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,8 @@
 # include <fcntl.h>
 # include <stdio.h>
 # include <stdlib.h>
+# include <limits.h>
+
 
 size_t	ft_strlen(const char *s);
 char	*ft_substr(char *s, unsigned int start, size_t len);
