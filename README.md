@@ -4,7 +4,7 @@
 
 ## Description
 
-`get_next_line` is a function that reads from a file descriptor line by line, returning each line as a string while using buffered reading and dynamic memory management to ensure efficient handling of input across consecutive calls.
+`get_next_line()` is a function that reads from a file descriptor line by line, returning each line as a string while using buffered reading and dynamic memory management to ensure efficient handling of input across consecutive calls.
 
 This project teaches the following:
 
