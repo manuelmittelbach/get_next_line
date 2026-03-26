@@ -14,6 +14,14 @@ This project teaches the following:
 - Static variables and buffers
 - Variadic management of multiple file descriptors (bonus)
 
+<br>
+
+## Platform support
+
+This project is developed for Unix-like systems, primarily Linux. It uses Unix-oriented tooling and a Makefile-based build system, so it is generally not intended to run natively on Windows without adaptation. On Windows, the recommended way to build and run it is through WSL.
+
+<br>
+
 ## Instructions
 
 ### Compile
